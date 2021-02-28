@@ -9,6 +9,7 @@ public class IMQProtocol {
 	private String sourceUri;
 	private String destinationUri;
 	private String dataFormat;
+	private String xToken;
 
 	public IMQMessageDTO getData() {
 		return data;
@@ -48,6 +49,14 @@ public class IMQProtocol {
 
 	public void setDataFormat(String dataFormat) {
 		this.dataFormat = dataFormat;
+	}
+
+	public String getxToken() {
+		return xToken;
+	}
+
+	public void setxToken(String xToken) {
+		this.xToken = xToken;
 	}
 
 }
